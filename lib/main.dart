@@ -13,7 +13,13 @@ void main() {
     home: Scaffold(
       backgroundColor: bgColor,
       appBar: AppBar(
+        title: Text('Instagram'),
         backgroundColor: barColor,
+      ),
+      
+      floatingActionButton: FloatingActionButton(
+        backgroundColor: barColor,
+        onPressed: () {}
       ),
     ),
     );
