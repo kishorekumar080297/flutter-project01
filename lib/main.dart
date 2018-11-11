@@ -13,11 +13,12 @@ void main() {
     home: Scaffold(
       backgroundColor: bgColor,
       appBar: AppBar(
-        title: Text('Instagram'),
+        title: Text('Instagram', style: TextStyle(color: bgColor, fontStyle: FontStyle.normal, fontWeight: FontWeight.bold)),
         backgroundColor: barColor,
       ),
       
       floatingActionButton: FloatingActionButton(
+        child: Icon(Icons.add, color: bgColor, size: 30),
         backgroundColor: barColor,
         onPressed: () {}
       ),
