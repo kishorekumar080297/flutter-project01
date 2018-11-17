@@ -1,8 +1,6 @@
-# project01
+# My First Flutter App
 
 A new Flutter project.
 
-## Getting Started
-
-For help getting started with Flutter, view our online
-[documentation](https://flutter.io/).
+## License ##
+Copyright (c) 2018 Kishore Kumar <kishorekumar080297@gmail.com> 
